@@ -1,1 +1,27 @@
-theme: jekyll-theme-merlot
+title: "John Seibert"
+author: "John Seibert"
+description: "Bloomsburg University of Pennsylvania"
+permalink: /title/
+lang: "en"
+excerpt_separator: "\n\n\n\n"
+date_format: "%B %d, %Y"
+
+# Layout
+show_social: true        # show site description and social links in the footer
+show_excerpt: false      # show article excerpts on the home page
+show_frame: true         # adds a gray frame to the site
+show_sidebar: false      # show a sidebar instead of the usual header
+
+# Menu
+navigation:
+  - {title:"underconstruct.pdf", title:"CV", icon:!home}
+  - {title:"url", url:"https://childlanglab.com"}
+  - {title:"blog", file:"blog.md"}
+
+external:
+  - {title Mail!, icon! envelope,url! “mailto:jms81185@huskies.bloomu.edu”}
+  - {title GitHub!, icon! github,url! “https://github.com/johnseibert19”}
+  - {title Twitter!, icon! twitter,url! “https://twitter.com/kathrynschuler”}
+
+plugins:
+    jekyll-feed
