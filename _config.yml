@@ -21,7 +21,7 @@ navigation:
 external:
   - {title Mail!, icon! envelope,url! “mailto:jms81185@huskies.bloomu.edu”}
   - {title GitHub!, icon! github,url! “https://github.com/johnseibert19”}
-  - {title Twitter!, icon! twitter,url! “https://twitter.com/kathrynschuler”}
+  - {title Twitter!, icon! twitter,url! “https://twitter.com/realDonaldTrump”}
 
 plugins:
-    jekyll-feed
+    plugins_dir
